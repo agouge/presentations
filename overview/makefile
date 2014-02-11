@@ -11,4 +11,4 @@ pdfdirect:
 	zathura talk.pdf
 
 reveal:
-	pandoc --slide-level 1 --section-divs -i --table-of-contents -t html5 -s --template template.revealjs -o reveal.js/talk.html talk.md
+	pandoc --slide-level 1 --section-divs -i --table-of-contents -t html5 -s --template template.revealjs.html -o reveal.js/talk.html talk.md
