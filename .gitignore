@@ -7,3 +7,4 @@
 *.tex
 *.toc
 *.vrb
+*reveal.js*

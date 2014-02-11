@@ -9,4 +9,6 @@ tex:
 pdfdirect:
 	pandoc --slide-level 2 -t beamer talk.md -o talk.pdf
 	zathura talk.pdf
-	# pandoc --toc --slide-level 2 -V theme:Frankfurt -t beamer talk.md -o talk.pdf
+
+reveal:
+	pandoc --slide-level 1 --section-divs -i --table-of-contents -t html5 -s --template template.revealjs -o reveal.js/talk.html talk.md
