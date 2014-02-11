@@ -12,3 +12,4 @@ pdfdirect:
 
 reveal:
 	pandoc --slide-level 1 --section-divs -i --table-of-contents -t html5 -s --template template.revealjs.html -o reveal.js/talk.html talk.md
+	chromium reveal.js/talk.html
