@@ -4,6 +4,8 @@
 
 # Software architecture
 
+![OSGi](osgi.png)
+
 # Tools
 #
 

@@ -1,0 +1,36 @@
+digraph g {
+    node [fontname = "arial", fontsize=12];
+    rankdir = "LR";
+    ranksep = 1.2;
+    "postgis" [
+        label = "<f0> POSTGIS | <f1> DataSourceFactory "
+        shape = "record"
+    ];
+    "h2" [
+        label = "<f0> H2 | <f1> DataSourceFactory "
+        shape = "record"
+    ];
+    "orbisgis" [
+        label = "<f0> DataSourceFactory\n EditorPanel | <f1> ORBISGIS\n -Core\n -View\n -GeoCatalog | <f2> ViewWorkspace\n DataSource\n DataManager"
+        shape = "record"
+    ];
+    "toc" [
+        label = "<f0> DataManager\n ViewWorkspace | <f1> TOC | <f2> EditorPanel "
+        shape = "record"
+    ];
+    "mapeditor" [
+        label = "<f0> DataManager\n ViewWorkspace | <f1> MAPEDITOR | <f2> EditorPanel "
+        shape = "record"
+    ];
+    "h2gis" [
+        label = "<f0> DataSource\n Function | <f1> H2GIS | <f2> Function\n FileDriver "
+        shape = "record"
+    ];
+    "postgis":f1 -> "orbisgis":f0;
+    "h2":f1 -> "orbisgis":f0;
+    "orbisgis":f2 -> "toc":f0;
+    "orbisgis":f2 -> "mapeditor":f0;
+    "orbisgis":f2 -> "h2gis":f0;
+    "toc":f2 -> "orbisgis":f0;
+    "mapeditor":f2 -> "orbisgis":f0;
+}
