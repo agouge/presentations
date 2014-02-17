@@ -58,10 +58,13 @@
     <li><a href="#git">Git</a></li>
     <li><a href="#ide">IDE</a></li>
     <li><a href="#build-systems">Build systems</a></li>
-    <li><a href="#dynamic-scripting-languages">Dynamic (&quot;scripting&quot;) languages</a></li>
     <li><a href="#continuous-integration-ci">Continuous integration (CI)</a></li>
+    <li><a href="#code-quality-analysis">Code quality analysis</a></li>
+    <li><a href="#dynamic-scripting-languages">Dynamic (&quot;scripting&quot;) languages</a></li>
     </ul></li>
-    <li><a href="#workflow">Workflow</a></li>
+    <li><a href="#workflow">Workflow</a><ul class="incremental">
+    <li><a href="#basic-workflow">Basic workflow</a></li>
+    </ul></li>
     </ul>
   </nav>
 </section>
@@ -106,6 +109,19 @@
 <li><a href="http://www.gradle.org">Gradle</a></li>
 </ul>
 </section>
+<section id="continuous-integration-ci" class="level2">
+<h2>Continuous integration (CI)</h2>
+<ul class="incremental">
+<li><a href="https://travis-ci.org">Travis</a></li>
+<li><a href="http://jenkins.orbisgis.org">Jenkins</a></li>
+</ul>
+</section>
+<section id="code-quality-analysis" class="level2">
+<h2>Code quality analysis</h2>
+<ul class="incremental">
+<li><a href="http://sonar.orbisgis.org">Sonar</a></li>
+</ul>
+</section>
 <section id="dynamic-scripting-languages" class="level2">
 <h2>Dynamic (&quot;scripting&quot;) languages</h2>
 <ul class="incremental">
@@ -114,16 +130,25 @@
 <li>See also: <a href="http://www.scala-lang.org">Scala</a></li>
 </ul>
 </section>
-<section id="continuous-integration-ci" class="level2">
-<h2>Continuous integration (CI)</h2>
-<ul class="incremental">
-<li><a href="https://travis-ci.org">Travis</a></li>
-<li><a href="http://jenkins.orbisgis.org">Jenkins</a></li>
-</ul>
-</section>
 </section>
 <section id="workflow" class="level1">
 <h1>Workflow</h1>
+<section id="basic-workflow" class="level2">
+<h2>Basic workflow</h2>
+<ul class="incremental">
+<li>Meetings to define major goals</li>
+<li><a href="https://github.com/irstv/h2gis/issues?state=open">Issues</a> (tickets) - assign</li>
+<li>Commits
+<ul class="incremental">
+<li><a href="https://github.com/irstv/H2GIS/network">Code</a></li>
+<li><a href="http://javadoc.orbisgis.org/latest/h2gis/classes.html">In-line documentation</a></li>
+<li><a href="http://sonar.orbisgis.org/dashboard/index/2649">Unit tests</a></li>
+</ul></li>
+<li><a href="https://github.com/irstv/h2gis/pulls">Pull requests</a></li>
+<li>Approval -&gt; Merge into master</li>
+<li>Update <a href="https://github.com/irstv/orbisgis/wiki">wiki</a> / <a href="http://www.h2gis.org/">website</a></li>
+</ul>
+</section>
 </section>
 </div>
 

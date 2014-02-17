@@ -30,15 +30,31 @@
 * [Ant](http://ant.apache.org)
 * [Gradle](http://www.gradle.org)
 
+## Continuous integration (CI)
+
+* [Travis](https://travis-ci.org)
+* [Jenkins](http://jenkins.orbisgis.org)
+
+## Code quality analysis
+
+* [Sonar](http://sonar.orbisgis.org)
+
 ## Dynamic ("scripting") languages
 
 * [Groovy](http://groovy.codehaus.org) - the [Python](http://www.python.org) of [Java](https://www.java.com/en)
 * [Beanshell](http://www.beanshell.org) - outdated
 * See also: [Scala](http://www.scala-lang.org)
 
-## Continuous integration (CI)
-
-* [Travis](https://travis-ci.org)
-* [Jenkins](http://jenkins.orbisgis.org)
-
 # Workflow
+
+## Basic workflow
+
+* Meetings to define major goals
+* [Issues](https://github.com/irstv/h2gis/issues?state=open) (tickets) - assign
+* Commits
+    * [Code](https://github.com/irstv/H2GIS/network)
+    * [In-line documentation](http://javadoc.orbisgis.org/latest/h2gis/classes.html)
+    * [Unit tests](http://sonar.orbisgis.org/dashboard/index/2649)
+* [Pull requests](https://github.com/irstv/h2gis/pulls)
+* Approval -> Merge into master
+* Update [wiki](https://github.com/irstv/orbisgis/wiki) / [website](http://www.h2gis.org/)
