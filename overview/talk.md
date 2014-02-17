@@ -4,7 +4,9 @@
 
 # Software architecture
 
-![OSGi](osgi.png)
+## Modularizing OrbisGIS
+
+![](osgi.png)
 
 # Tools
 
@@ -35,7 +37,7 @@
 * [Travis](https://travis-ci.org)
 * [Jenkins](http://jenkins.orbisgis.org)
 
-## Code quality analysis
+## Continuous code quality inspection
 
 * [Sonar](http://sonar.orbisgis.org)
 

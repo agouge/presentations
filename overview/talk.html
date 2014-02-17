@@ -53,13 +53,15 @@
   <h2>Outline</h2>
   <nav id="TOC">
     <ul class="incremental">
-    <li><a href="#software-architecture">Software architecture</a></li>
+    <li><a href="#software-architecture">Software architecture</a><ul class="incremental">
+    <li><a href="#modularizing-orbisgis">Modularizing OrbisGIS</a></li>
+    </ul></li>
     <li><a href="#tools">Tools</a><ul class="incremental">
     <li><a href="#git">Git</a></li>
     <li><a href="#ide">IDE</a></li>
     <li><a href="#build-systems">Build systems</a></li>
     <li><a href="#continuous-integration-ci">Continuous integration (CI)</a></li>
-    <li><a href="#code-quality-analysis">Code quality analysis</a></li>
+    <li><a href="#continuous-code-quality-inspection">Continuous code quality inspection</a></li>
     <li><a href="#dynamic-scripting-languages">Dynamic (&quot;scripting&quot;) languages</a></li>
     </ul></li>
     <li><a href="#workflow">Workflow</a><ul class="incremental">
@@ -71,9 +73,12 @@
 
 <section id="software-architecture" class="level1">
 <h1>Software architecture</h1>
+<section id="modularizing-orbisgis" class="level2">
+<h2>Modularizing OrbisGIS</h2>
 <figure>
-<img src="osgi.png" alt="OSGi" /><figcaption>OSGi</figcaption>
+<img src="osgi.png" />
 </figure>
+</section>
 </section>
 <section id="tools" class="level1">
 <h1>Tools</h1>
@@ -116,8 +121,8 @@
 <li><a href="http://jenkins.orbisgis.org">Jenkins</a></li>
 </ul>
 </section>
-<section id="code-quality-analysis" class="level2">
-<h2>Code quality analysis</h2>
+<section id="continuous-code-quality-inspection" class="level2">
+<h2>Continuous code quality inspection</h2>
 <ul class="incremental">
 <li><a href="http://sonar.orbisgis.org">Sonar</a></li>
 </ul>
