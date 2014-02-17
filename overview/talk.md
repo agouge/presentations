@@ -11,6 +11,11 @@
 * Modularization
 * Two versions of the same package in a single application
 
+## Bundle lifecycle
+
+<!-- ![](osgi-bundle-lifecycle.png) -->
+<img src="osgi-bundle-lifecycle.png" width="600px" />
+
 ## Modularizing OrbisGIS
 
 ![(In progress)](osgi.png)
@@ -23,6 +28,13 @@
 * [Interactive tutorial](http://try.github.io)
 * [Getting Git - simplified](https://dbrgn.ch/slides/20130207_getting_git)
 * [Getting Git - advanced](http://www.slideshare.net/chacon/getting-git)
+
+## Project web hosting
+
+* [GitHub](https://github.com) (!= Git)
+* [Gitorious](https://www.gitorious.org)
+* [Bitbucket](https://bitbucket.org)
+* [Kiln](http://www.fogcreek.com/kiln)
 
 ## Integrated Development Environments (IDE)
 
