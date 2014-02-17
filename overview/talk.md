@@ -24,7 +24,7 @@
 * [Getting Git - simplified](https://dbrgn.ch/slides/20130207_getting_git)
 * [Getting Git - advanced](http://www.slideshare.net/chacon/getting-git)
 
-## IDE
+## Integrated Development Environments (IDE)
 
 * [Netbeans](https://netbeans.org)
     * [Debugger and profiler](https://netbeans.org/features/java/debugger.html)
