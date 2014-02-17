@@ -4,9 +4,16 @@
 
 # Software architecture
 
+## Meet OSGi
+
+([website](http://www.osgi.org/Main/HomePage), [wiki](http://en.wikipedia.org/wiki/OSGi))
+
+* Modularization
+* Two versions of the same package in a single application
+
 ## Modularizing OrbisGIS
 
-![](osgi.png)
+![(In progress)](osgi.png)
 
 # Tools
 
@@ -28,7 +35,7 @@
 
 * [Maven](http://maven.apache.org)
     * [`pom.xml`](https://github.com/irstv/H2GIS/blob/master/pom.xml) (project object model)
-    * [archetypes](https://github.com/irstv/orbisgis-plugin-archetype)
+    * [archetypes](https://github.com/irstv/orbisgis-plugin-archetype) - ([guide](https://github.com/irstv/orbisgis/wiki/Create-your-plugin-for-OrbisGIS-4.0))
 * [Ant](http://ant.apache.org)
 * [Gradle](http://www.gradle.org)
 
